@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lisu+Bosa:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  height: 100vh; 
+  margin: auto;
+  max-width: 1280px; 
+  
+}
+
+header{
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h2{
+    font-family: "Lisu Bosa", serif;
+  font-weight: 400;
+  
+}
+h3{
+    font-family: "Lisu Bosa", serif;
+    font-weight: 400;
+       
+}
+nav{
+    
+
+    border-radius:10px;
+    padding: 10px;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+   list-style: none;
+   display: flex; 
+   gap: 40px;
+   padding: 10px;
+}
+li a{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    
+}
+li a:hover{
+    color: #314f82;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.logo img{
+height: 100px;
+}
+
+.title {
+    font-size: 50px;
+    color: #726d6d;
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+
+}
+/* main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+#hero {                     
+    height: 90px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid rgba(25, 41, 123, 0.428);
+    border-radius: 20px;
+    gap: 20px;
+    background-color:   #818080;
+    margin: 10px;
+    
+  
+}
+.detail {
+    height: 90px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#newroute {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px 10px;
+
+}
+.left {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.jag{
+     
+    border-radius: 10px;
+}
+
+#ourservice {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    padding: 10px;
+
+}
+.serve {
+    margin: 60px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    padding: 10px;
+}
+.last {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media queries*/
+@media (min-width:480px) and (max-width:760px){
+nav{
+    flex-direction: column;
+    width: 100vw;
+    gap: 20px;
+}
+.logo{
+    flex-direction: column;
+}
+nav ul{
+    flex-direction: column;
+}
+}
+
+@media (min-width:761px) and (max-width:997px){
+
+}
+@media (min-width:998px) and (max-width:1200px){
+
+}
